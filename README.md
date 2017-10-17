@@ -29,4 +29,4 @@ Time Complexity &sub; O(n)
 <ul>
     <li>http://brenden.github.io/ukkonen-animation/</li>
     <li>http://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-1/</li>
-<ul>
+</ul>
