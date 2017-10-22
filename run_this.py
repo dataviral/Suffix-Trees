@@ -26,13 +26,13 @@ def get_tales(TALES_FILE):
 if __name__ == "__main__":
     tales = get_tales(TALES_FILE)
     doc = Documents(tales)
-
-    # Question 1
-    pprint(doc.all_in_all("hired"), indent=4)
-    print("\n\n\n");print("------------------------------------------");print("\n\n\n")
-    #Question 2
-    pprint(doc.one_in_all("hired"), indent=4)
-    print("\n\n\n");print("------------------------------------------");print("\n\n\n")
-    #Question 3
-    pprint({"relavance":doc.relevence("hired")}, indent=4)
-    print("\n\n\n");print("------------------------------------------");print("\n\n\n")
+    print(len(tales))
+    # # Question 1
+    # pprint(doc.all_in_all("hired"), indent=4)
+    # print("\n\n\n");print("------------------------------------------");print("\n\n\n")
+    # #Question 2
+    # pprint(doc.one_in_all("hired"), indent=4)
+    # print("\n\n\n");print("------------------------------------------");print("\n\n\n")
+    # #Question 3
+    # pprint({"relavance":doc.relevence("hired")}, indent=4)
+    # print("\n\n\n");print("------------------------------------------");print("\n\n\n")
